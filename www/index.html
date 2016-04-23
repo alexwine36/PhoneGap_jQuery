@@ -119,14 +119,14 @@
 
 				if (localStorage.getItem("className") !== null && localStorage.getItem("className") !== "" && localStorage.getItem("className") !== "undefined") {
 					console.log("Button Enabled");
-					if($("#hideButton").is(':hidden')){
-						$("#showButton").show();
-					}
+					// if($("#hideButton").is(':hidden')){
+					$("#showButton").show();
+					// }
 				} else {
 					console.log("Button Disabled");
-					if($("#hideButton").is(':visible')){
-						$("#showButton").hide();
-					}
+					// if($("#hideButton").is(':visible')){
+					$("#showButton").hide();
+					// }
 
 				}
 
